@@ -1,0 +1,73 @@
+/* DigitalSignature.css */
+.digital-signature-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.signature-pad-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin: 2rem 0;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: white;
+  touch-action: none;
+}
+
+.signature-pad {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.signature-line {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  right: 20px;
+  height: 1px;
+  background-color: var(--border-color);
+  z-index: 0;
+}
+
+.signature-label {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  color: var(--light-text);
+  font-size: 0.9rem;
+  z-index: 0;
+}
+
+.signature-actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.clear-button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.certification-text {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--light-text);
+}
+
+.signature-instruction {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}

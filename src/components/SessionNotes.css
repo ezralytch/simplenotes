@@ -1,0 +1,33 @@
+/* SessionNotes.css */
+.session-notes-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.notes-helper {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  border: 1px solid var(--border-color);
+}
+
+.notes-helper h4 {
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.notes-helper ul {
+  padding-left: 1.5rem;
+}
+
+.template-selector {
+  margin-bottom: 2rem;
+}
+
+.notes-instruction {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
