@@ -1,0 +1,9 @@
+# .env file for SimpleNotes app
+
+# DeepSeek API Configuration
+VITE_DEEPSEEK_API_KEY=your_api_key_here
+VITE_DEEPSEEK_API_ENDPOINT=https://api.deepseek.com/v1/chat/completions
+VITE_DEEPSEEK_MODEL=deepseek-chat
+
+# To use the app with actual AI generation, replace 'your_api_key_here' with your real DeepSeek API key
+# If you leave it as is, the app will work in demo mode with placeholder content
